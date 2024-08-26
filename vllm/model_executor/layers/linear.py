@@ -133,6 +133,8 @@ class LinearBase(torch.nn.Module):
     ):
         super().__init__()
 
+        print("prof101: LinearBase is called!!!")
+
         # Keep input parameters
         self.input_size = input_size
         self.output_size = output_size
